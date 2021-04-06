@@ -13,7 +13,7 @@ meat = Category.create(name: "meat")
 dairy = Category.create(name: "dairy")
 cafe = Category.create(name: "cafe")
 bar = Category.create(name: "bar")
-steakhouse = Category.create(name: "steakhouse")
+
 
 Review.create(author: "Luzy Bryski", restaurant: "Pizza Nosh", location: "Agoura Hills, CA", image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKszkGYPtsXUflpCdd7unruX8_2ZRPPGmOog&usqp=CAU", rating: 10, description: "Best pizza shop by far!", category: dairy)
 
