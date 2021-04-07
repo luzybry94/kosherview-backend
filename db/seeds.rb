@@ -15,9 +15,15 @@ cafe = Category.create(name: "cafe")
 bar = Category.create(name: "bar")
 
 
-Review.create(author: "Luzy Bryski", restaurant: "Pizza Nosh", location: "Agoura Hills, CA", image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKszkGYPtsXUflpCdd7unruX8_2ZRPPGmOog&usqp=CAU", rating: 10, description: "Best pizza shop by far!", category: dairy)
+Review.create(author: "Luzy", restaurant: "Pizza Nosh", location: "Agoura Hills, CA", image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKszkGYPtsXUflpCdd7unruX8_2ZRPPGmOog&usqp=CAU", rating: 10, description: "Best pizza shop by far!", category: dairy)
 
-Review.create(author: "Luzy Bryski", restaurant: "Jeffs", location: "Los Angeles, CA", image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRx7nvWE8xBt8l6ggFU6I7yk3QnK_jP5n_HQ&usqp=CAU", rating: 9, description: "Make sure to get the wild western burger!", category: meat)
+Review.create(author: "Moosh", restaurant: "Jeffs", location: "Los Angeles, CA", image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEKcJxZXfZ6Y3gT7uCe3roxJcpBQe_7dfS_A&usqp=CAU", rating: 9, description: "Make sure to get the wild western burger!", category: meat)
 
-Review.create(author: "Luzy Bryski", restaurant: "The Stonehaus", location: "Westlake Village, CA", image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ14dH_K9fffbCAeQ2Q2GHGoKsqq-sRx70lQ&usqp=CAU", rating: 9, description: "Very chill vibe and great beer selection!", category: bar)
+Review.create(author: "Yobro", restaurant: "The Stonehaus", location: "Westlake Village, CA", image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ14dH_K9fffbCAeQ2Q2GHGoKsqq-sRx70lQ&usqp=CAU", rating: 9, description: "Very chill vibe and great beer selection!", category: bar)
+
+Review.create(author: "Alvin", restaurant: "Ta-Eam Grill", location: "Los Angeles, CA", image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMrhHrxNLWxgQT8LkSqUsvgWD7HJ-Wt3ub4g&usqp=CAU", rating: 10, description: "Love me some shwarma!", category: meat)
+
+Review.create(author: "Mendy", restaurant: "Schnitzly", location: "Los Angeles, CA", image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2ET3BwMIh7T8_ru6WTh_PG8IMr4bmkUVEDQ&usqp=CAU", rating: 7, description: "Highly recommend the buffalo shnitzle wrap.", category: meat)
+
+Review.create(author: "Luzy", restaurant: "Charcoal Grill & Bar", location: "Los Angeles, CA", image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu2y0-u_ZjJfuBFUt1kY4pGCK54mwVkEVMnw&usqp=CAU", rating: 8, description: "Exquisite food! ", category: bar)
 
