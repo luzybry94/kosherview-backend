@@ -5,15 +5,21 @@ class Api::V1::ReviewsController < ApplicationController
         render json: reviews
     end
 
-    def update
-        review = Review.find(params[:id])
-        review.update!(author: params[:author])
+    def create
+        review = Review.create(review_params)
         render json: review
     end
+
+    # def update
+    #     review = Review.find(params[:id])
+    #     review.update!(author: params[:author])
+    #     render json: review
+    # end
     
-    
-    def show
-        review = Review.find(params[:id])
-        render json: review
+    private
+
+    def review_params
+        params.require(:review).permit(:author, :restaurant, :location, :image_url, :rating, :description, :category_id)
     end
+    
 end
