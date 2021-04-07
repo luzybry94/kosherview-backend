@@ -10,6 +10,12 @@ class Api::V1::ReviewsController < ApplicationController
         render json: review
     end
 
+    def destroy
+        review = Review.find(params[:id])
+        review.destroy
+        render json: {id: review.id}
+    end
+
     # def update
     #     review = Review.find(params[:id])
     #     review.update!(author: params[:author])
